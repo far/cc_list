@@ -1,3 +1,5 @@
+This was a test task to build Flutter app from this [Figma design prototype](https://www.figma.com/design/W9r6y2DnZvkwCNhsVM1TDx/Untitled--Copy-)
+
 ## Demo available [here](https://siamgames.dev/coincap/)
 
 ## Installation process:
