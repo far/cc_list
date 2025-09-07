@@ -5,8 +5,8 @@ part 'coincap_asset.g.dart';
 
 @freezed
 abstract class Asset with _$Asset {
-  factory Asset({required String symbol, required String priceUsd}) =
-      _AssetBasic;
+  const factory Asset({required String symbol, required String priceUsd}) =
+      _Asset;
 
   factory Asset.fromJson(Map<String, dynamic> json) => _$AssetFromJson(json);
 }
