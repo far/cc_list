@@ -6,7 +6,7 @@ part 'coincap_assets_response.g.dart';
 
 @freezed
 abstract class CoinCapResponse with _$CoinCapResponse {
-  factory CoinCapResponse({required List<Asset> data}) = _CoinCapResponse;
+  const factory CoinCapResponse({required List<Asset> data}) = _CoinCapResponse;
 
   factory CoinCapResponse.fromJson(Map<String, dynamic> json) =>
       _$CoinCapResponseFromJson(json);
